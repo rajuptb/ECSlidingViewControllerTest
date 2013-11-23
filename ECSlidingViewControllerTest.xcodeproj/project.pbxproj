@@ -14,14 +14,23 @@
 		3FAC2A8018412F600042D92F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2A7F18412F600042D92F /* main.m */; };
 		3FAC2A8418412F600042D92F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2A8318412F600042D92F /* AppDelegate.m */; };
 		3FAC2A8718412F600042D92F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC2A8518412F600042D92F /* Main_iPhone.storyboard */; };
-		3FAC2A8A18412F600042D92F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC2A8818412F600042D92F /* Main_iPad.storyboard */; };
-		3FAC2A8D18412F600042D92F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2A8C18412F600042D92F /* ViewController.m */; };
 		3FAC2A8F18412F600042D92F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC2A8E18412F600042D92F /* Images.xcassets */; };
 		3FAC2A9618412F600042D92F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC2A9518412F600042D92F /* XCTest.framework */; };
 		3FAC2A9718412F600042D92F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC2A7318412F600042D92F /* Foundation.framework */; };
 		3FAC2A9818412F600042D92F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC2A7718412F600042D92F /* UIKit.framework */; };
 		3FAC2AA018412F600042D92F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC2A9E18412F600042D92F /* InfoPlist.strings */; };
 		3FAC2AA218412F600042D92F /* ECSlidingViewControllerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AA118412F600042D92F /* ECSlidingViewControllerTestTests.m */; };
+		3FAC2AB918412F830042D92F /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AAD18412F830042D92F /* ECPercentDrivenInteractiveTransition.m */; };
+		3FAC2ABA18412F830042D92F /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AAF18412F830042D92F /* ECSlidingAnimationController.m */; };
+		3FAC2ABB18412F830042D92F /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AB218412F830042D92F /* ECSlidingInteractiveTransition.m */; };
+		3FAC2ABC18412F830042D92F /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AB418412F830042D92F /* ECSlidingSegue.m */; };
+		3FAC2ABD18412F830042D92F /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AB618412F830042D92F /* ECSlidingViewController.m */; };
+		3FAC2ABE18412F830042D92F /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AB818412F830042D92F /* UIViewController+ECSlidingViewController.m */; };
+		3FAC2AC118412FF10042D92F /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AC018412FF10042D92F /* MainMenuViewController.m */; };
+		3FAC2AC418412FFD0042D92F /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AC318412FFD0042D92F /* HomeScreenViewController.m */; };
+		3FAC2AC7184130250042D92F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AC6184130250042D92F /* FirstViewController.m */; };
+		3FAC2ACA184130310042D92F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AC9184130310042D92F /* SecondViewController.m */; };
+		3FAC2ACC184131570042D92F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC2ACB184131570042D92F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +55,34 @@
 		3FAC2A8218412F600042D92F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FAC2A8318412F600042D92F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FAC2A8618412F600042D92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		3FAC2A8918412F600042D92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		3FAC2A8B18412F600042D92F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FAC2A8C18412F600042D92F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FAC2A8E18412F600042D92F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FAC2A9418412F600042D92F /* ECSlidingViewControllerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECSlidingViewControllerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAC2A9518412F600042D92F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3FAC2A9D18412F600042D92F /* ECSlidingViewControllerTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ECSlidingViewControllerTestTests-Info.plist"; sourceTree = "<group>"; };
 		3FAC2A9F18412F600042D92F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FAC2AA118412F600042D92F /* ECSlidingViewControllerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewControllerTestTests.m; sourceTree = "<group>"; };
+		3FAC2AAC18412F830042D92F /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		3FAC2AAD18412F830042D92F /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		3FAC2AAE18412F830042D92F /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		3FAC2AAF18412F830042D92F /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		3FAC2AB018412F830042D92F /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		3FAC2AB118412F830042D92F /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		3FAC2AB218412F830042D92F /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		3FAC2AB318412F830042D92F /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		3FAC2AB418412F830042D92F /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		3FAC2AB518412F830042D92F /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		3FAC2AB618412F830042D92F /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		3FAC2AB718412F830042D92F /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		3FAC2AB818412F830042D92F /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		3FAC2ABF18412FF10042D92F /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		3FAC2AC018412FF10042D92F /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		3FAC2AC218412FFD0042D92F /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		3FAC2AC318412FFD0042D92F /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		3FAC2AC5184130250042D92F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3FAC2AC6184130250042D92F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3FAC2AC8184130310042D92F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3FAC2AC9184130310042D92F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3FAC2ACB184131570042D92F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAC2ACC184131570042D92F /* QuartzCore.framework in Frameworks */,
 				3FAC2A7618412F600042D92F /* CoreGraphics.framework in Frameworks */,
 				3FAC2A7818412F600042D92F /* UIKit.framework in Frameworks */,
 				3FAC2A7418412F600042D92F /* Foundation.framework in Frameworks */,
@@ -103,6 +132,7 @@
 		3FAC2A7218412F600042D92F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FAC2ACB184131570042D92F /* QuartzCore.framework */,
 				3FAC2A7318412F600042D92F /* Foundation.framework */,
 				3FAC2A7518412F600042D92F /* CoreGraphics.framework */,
 				3FAC2A7718412F600042D92F /* UIKit.framework */,
@@ -114,12 +144,18 @@
 		3FAC2A7918412F600042D92F /* ECSlidingViewControllerTest */ = {
 			isa = PBXGroup;
 			children = (
+				3FAC2AAB18412F830042D92F /* ECSlidingViewController */,
 				3FAC2A8218412F600042D92F /* AppDelegate.h */,
 				3FAC2A8318412F600042D92F /* AppDelegate.m */,
 				3FAC2A8518412F600042D92F /* Main_iPhone.storyboard */,
-				3FAC2A8818412F600042D92F /* Main_iPad.storyboard */,
-				3FAC2A8B18412F600042D92F /* ViewController.h */,
-				3FAC2A8C18412F600042D92F /* ViewController.m */,
+				3FAC2ABF18412FF10042D92F /* MainMenuViewController.h */,
+				3FAC2AC018412FF10042D92F /* MainMenuViewController.m */,
+				3FAC2AC218412FFD0042D92F /* HomeScreenViewController.h */,
+				3FAC2AC318412FFD0042D92F /* HomeScreenViewController.m */,
+				3FAC2AC5184130250042D92F /* FirstViewController.h */,
+				3FAC2AC6184130250042D92F /* FirstViewController.m */,
+				3FAC2AC8184130310042D92F /* SecondViewController.h */,
+				3FAC2AC9184130310042D92F /* SecondViewController.m */,
 				3FAC2A8E18412F600042D92F /* Images.xcassets */,
 				3FAC2A7A18412F600042D92F /* Supporting Files */,
 			);
@@ -153,6 +189,26 @@
 				3FAC2A9E18412F600042D92F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FAC2AAB18412F830042D92F /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3FAC2AAC18412F830042D92F /* ECPercentDrivenInteractiveTransition.h */,
+				3FAC2AAD18412F830042D92F /* ECPercentDrivenInteractiveTransition.m */,
+				3FAC2AAE18412F830042D92F /* ECSlidingAnimationController.h */,
+				3FAC2AAF18412F830042D92F /* ECSlidingAnimationController.m */,
+				3FAC2AB018412F830042D92F /* ECSlidingConstants.h */,
+				3FAC2AB118412F830042D92F /* ECSlidingInteractiveTransition.h */,
+				3FAC2AB218412F830042D92F /* ECSlidingInteractiveTransition.m */,
+				3FAC2AB318412F830042D92F /* ECSlidingSegue.h */,
+				3FAC2AB418412F830042D92F /* ECSlidingSegue.m */,
+				3FAC2AB518412F830042D92F /* ECSlidingViewController.h */,
+				3FAC2AB618412F830042D92F /* ECSlidingViewController.m */,
+				3FAC2AB718412F830042D92F /* UIViewController+ECSlidingViewController.h */,
+				3FAC2AB818412F830042D92F /* UIViewController+ECSlidingViewController.m */,
+			);
+			path = ECSlidingViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +287,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FAC2A8A18412F600042D92F /* Main_iPad.storyboard in Resources */,
 				3FAC2A8F18412F600042D92F /* Images.xcassets in Resources */,
 				3FAC2A8718412F600042D92F /* Main_iPhone.storyboard in Resources */,
 				3FAC2A7E18412F600042D92F /* InfoPlist.strings in Resources */,
@@ -253,9 +308,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FAC2A8D18412F600042D92F /* ViewController.m in Sources */,
+				3FAC2ACA184130310042D92F /* SecondViewController.m in Sources */,
+				3FAC2AC7184130250042D92F /* FirstViewController.m in Sources */,
+				3FAC2ABE18412F830042D92F /* UIViewController+ECSlidingViewController.m in Sources */,
+				3FAC2AC418412FFD0042D92F /* HomeScreenViewController.m in Sources */,
 				3FAC2A8418412F600042D92F /* AppDelegate.m in Sources */,
+				3FAC2ABB18412F830042D92F /* ECSlidingInteractiveTransition.m in Sources */,
+				3FAC2ABC18412F830042D92F /* ECSlidingSegue.m in Sources */,
+				3FAC2AC118412FF10042D92F /* MainMenuViewController.m in Sources */,
 				3FAC2A8018412F600042D92F /* main.m in Sources */,
+				3FAC2ABD18412F830042D92F /* ECSlidingViewController.m in Sources */,
+				3FAC2ABA18412F830042D92F /* ECSlidingAnimationController.m in Sources */,
+				3FAC2AB918412F830042D92F /* ECPercentDrivenInteractiveTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,14 +356,6 @@
 				3FAC2A8618412F600042D92F /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		3FAC2A8818412F600042D92F /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FAC2A8918412F600042D92F /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		3FAC2A9E18412F600042D92F /* InfoPlist.strings */ = {
@@ -395,7 +451,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECSlidingViewControllerTest/ECSlidingViewControllerTest-Prefix.pch";
 				INFOPLIST_FILE = "ECSlidingViewControllerTest/ECSlidingViewControllerTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,7 +466,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECSlidingViewControllerTest/ECSlidingViewControllerTest-Prefix.pch";
 				INFOPLIST_FILE = "ECSlidingViewControllerTest/ECSlidingViewControllerTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

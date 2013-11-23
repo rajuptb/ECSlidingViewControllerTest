@@ -7,15 +7,59 @@
 //
 
 #import "AppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle: nil];
+    
+    UIViewController *topViewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"HomeScreen"];
+    UIViewController *underLeftViewController  = [mainStoryboard instantiateViewControllerWithIdentifier: @"MainMenuViewController"];
+    
+    UIBarButtonItem *anchorRightButton = [[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStylePlain target:self action:@selector(anchorRight)];
+    topViewController.navigationItem.title = @"ECSlidingVC Demo";
+    topViewController.navigationItem.leftBarButtonItem  = anchorRightButton;
+    topViewController.navigationItem.hidesBackButton = NO;
+    topViewController.navigationController.navigationBarHidden = NO;
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:topViewController];
+    
+    // configure under left view controller
+    underLeftViewController.edgesForExtendedLayout = UIRectEdgeTop | UIRectEdgeBottom | UIRectEdgeLeft; // don't go under the top view
+    
+    
+    // configure sliding view controller
+    self.slidingViewController = [ECSlidingViewController slidingWithTopViewController:navigationController];
+    self.slidingViewController.underLeftViewController  = underLeftViewController;
+    
+    // enable swiping on the top view
+    [navigationController.view addGestureRecognizer:self.slidingViewController.panGesture];
+    
+    // configure anchored layout
+    self.slidingViewController.anchorRightPeekAmount  = 100.0;
+    self.slidingViewController.anchorLeftRevealAmount = 250.0;
+    
+    self.window.rootViewController = self.slidingViewController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
-							
+
+
+- (void)anchorRight {
+    NSLog(@"AppDelegate - anchorRight");
+    [self.slidingViewController anchorTopViewToRightAnimated:YES];
+}
+
+- (void)anchorLeft {
+    NSLog(@"AppDelegate - anchorLeft");
+    [self.slidingViewController anchorTopViewToLeftAnimated:YES];
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
