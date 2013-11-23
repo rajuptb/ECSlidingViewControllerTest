@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F6F947E18413B6F00D5201D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F947D18413B6F00D5201D /* README.md */; };
-		3F6F948018413D8E00D5201D /* Screen_Shot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F947F18413D8E00D5201D /* Screen_Shot_1.png */; };
+		3F6F948218413EE600D5201D /* Screen_Shot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F948118413EE600D5201D /* Screen_Shot_1.png */; };
 		3FAC2A7418412F600042D92F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC2A7318412F600042D92F /* Foundation.framework */; };
 		3FAC2A7618412F600042D92F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC2A7518412F600042D92F /* CoreGraphics.framework */; };
 		3FAC2A7818412F600042D92F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC2A7718412F600042D92F /* UIKit.framework */; };
@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		3F6F947D18413B6F00D5201D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
-		3F6F947F18413D8E00D5201D /* Screen_Shot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_Shot_1.png; sourceTree = "<group>"; };
+		3F6F948118413EE600D5201D /* Screen_Shot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_Shot_1.png; sourceTree = SOURCE_ROOT; };
 		3FAC2A7018412F600042D92F /* ECSlidingViewControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECSlidingViewControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAC2A7318412F600042D92F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FAC2A7518412F600042D92F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,7 +150,7 @@
 			children = (
 				3FAC2AAB18412F830042D92F /* ECSlidingViewController */,
 				3F6F947D18413B6F00D5201D /* README.md */,
-				3F6F947F18413D8E00D5201D /* Screen_Shot_1.png */,
+				3F6F948118413EE600D5201D /* Screen_Shot_1.png */,
 				3FAC2A8218412F600042D92F /* AppDelegate.h */,
 				3FAC2A8318412F600042D92F /* AppDelegate.m */,
 				3FAC2A8518412F600042D92F /* Main_iPhone.storyboard */,
@@ -294,8 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FAC2A8F18412F600042D92F /* Images.xcassets in Resources */,
+				3F6F948218413EE600D5201D /* Screen_Shot_1.png in Resources */,
 				3FAC2A8718412F600042D92F /* Main_iPhone.storyboard in Resources */,
-				3F6F948018413D8E00D5201D /* Screen_Shot_1.png in Resources */,
 				3F6F947E18413B6F00D5201D /* README.md in Resources */,
 				3FAC2A7E18412F600042D92F /* InfoPlist.strings in Resources */,
 			);
