@@ -33,6 +33,9 @@
 		3FAC2AC7184130250042D92F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AC6184130250042D92F /* FirstViewController.m */; };
 		3FAC2ACA184130310042D92F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2AC9184130310042D92F /* SecondViewController.m */; };
 		3FAC2ACC184131570042D92F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAC2ACB184131570042D92F /* QuartzCore.framework */; };
+		3FF8657A1841436D006AF5DC /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF865781841436D006AF5DC /* burger.png */; };
+		3FF8657B1841436D006AF5DC /* burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF865791841436D006AF5DC /* burger@2x.png */; };
+		3FF8657D184146D2006AF5DC /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8657C184146D2006AF5DC /* menu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		3FAC2AC8184130310042D92F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3FAC2AC9184130310042D92F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3FAC2ACB184131570042D92F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FF865781841436D006AF5DC /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = SOURCE_ROOT; };
+		3FF865791841436D006AF5DC /* burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "burger@2x.png"; sourceTree = SOURCE_ROOT; };
+		3FF8657C184146D2006AF5DC /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +156,9 @@
 			children = (
 				3FAC2AAB18412F830042D92F /* ECSlidingViewController */,
 				3F6F947D18413B6F00D5201D /* README.md */,
+				3FF865781841436D006AF5DC /* burger.png */,
+				3FF865791841436D006AF5DC /* burger@2x.png */,
+				3FF8657C184146D2006AF5DC /* menu.png */,
 				3F6F948118413EE600D5201D /* Screen_Shot_1.png */,
 				3FAC2A8218412F600042D92F /* AppDelegate.h */,
 				3FAC2A8318412F600042D92F /* AppDelegate.m */,
@@ -293,8 +302,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF8657D184146D2006AF5DC /* menu.png in Resources */,
 				3FAC2A8F18412F600042D92F /* Images.xcassets in Resources */,
 				3F6F948218413EE600D5201D /* Screen_Shot_1.png in Resources */,
+				3FF8657A1841436D006AF5DC /* burger.png in Resources */,
+				3FF8657B1841436D006AF5DC /* burger@2x.png in Resources */,
 				3FAC2A8718412F600042D92F /* Main_iPhone.storyboard in Resources */,
 				3F6F947E18413B6F00D5201D /* README.md in Resources */,
 				3FAC2A7E18412F600042D92F /* InfoPlist.strings in Resources */,

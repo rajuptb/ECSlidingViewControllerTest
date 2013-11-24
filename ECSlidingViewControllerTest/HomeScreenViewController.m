@@ -6,7 +6,7 @@
 //
 
 #import "HomeScreenViewController.h"
-#import "ECSlidingViewController.h"
+#import "UIViewController+ECSlidingViewController.h"
 
 
 @interface HomeScreenViewController ()
@@ -28,8 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-   
-    
+   [self.view addGestureRecognizer:self.slidingViewController.panGesture];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "UIViewController+ECSlidingViewController.h"
 
 @interface SecondViewController ()
 
@@ -27,6 +28,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [self.view addGestureRecognizer:self.slidingViewController.panGesture];
 }
 
 - (void)didReceiveMemoryWarning

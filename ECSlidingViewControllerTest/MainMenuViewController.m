@@ -43,6 +43,7 @@ NSString * const kCellIdentifier = @"Cell";
     _myTableView.dataSource=self;
     _myTableView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
     [_myTableView setSeparatorStyle:UITableViewCellSeparatorStyleSingleLine];
+    _myTableView.backgroundColor=[UIColor clearColor];
     
     menuItemsSec1 = [NSMutableArray arrayWithObjects:@"Home Screen",@"First Screen",@"Second Screen", nil];
 }

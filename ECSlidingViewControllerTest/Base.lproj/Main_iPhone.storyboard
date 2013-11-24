@@ -99,7 +99,8 @@
                     <view key="view" contentMode="scaleToFill" id="Wk0-1G-DJw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.34509804844856262" green="0.34509804844856262" blue="0.38823533058166504" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <connections>
                         <segue destination="9Wo-Ir-UNW" kind="custom" identifier="toHomeScreen" customClass="ECSlidingSegue" id="JAg-Kn-0dV"/>

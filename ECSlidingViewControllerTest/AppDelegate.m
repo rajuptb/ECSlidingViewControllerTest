@@ -20,7 +20,18 @@
     UIViewController *topViewController = [mainStoryboard instantiateViewControllerWithIdentifier: @"HomeScreen"];
     UIViewController *underLeftViewController  = [mainStoryboard instantiateViewControllerWithIdentifier: @"MainMenuViewController"];
     
-    UIBarButtonItem *anchorRightButton = [[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStylePlain target:self action:@selector(anchorRight)];
+    
+    UIImage *imgSideBarBtn = [UIImage imageNamed:@"Menu"];
+    CGRect frameSideBarBtn = CGRectMake(0, 0, 25, 22);
+    UIButton *btnSideBar = [[UIButton alloc] initWithFrame:frameSideBarBtn];
+    [btnSideBar setBackgroundImage:imgSideBarBtn forState:UIControlStateNormal];
+    [btnSideBar addTarget:self action:@selector(anchorRight) forControlEvents:UIControlEventTouchUpInside];
+    [btnSideBar setShowsTouchWhenHighlighted:YES];
+    UIBarButtonItem *anchorRightButton =[[UIBarButtonItem alloc] initWithCustomView:btnSideBar];
+
+    
+    
+    //UIBarButtonItem *anchorRightButton = [[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStylePlain target:self action:@selector(anchorRight)];
     topViewController.navigationItem.title = @"ECSlidingVC Demo";
     topViewController.navigationItem.leftBarButtonItem  = anchorRightButton;
     topViewController.navigationItem.hidesBackButton = NO;
@@ -37,7 +48,7 @@
     self.slidingViewController.underLeftViewController  = underLeftViewController;
     
     // enable swiping on the top view
-    [navigationController.view addGestureRecognizer:self.slidingViewController.panGesture];
+    //[navigationController.view addGestureRecognizer:self.slidingViewController.panGesture];
     
     // configure anchored layout
     self.slidingViewController.anchorRightPeekAmount  = 100.0;
